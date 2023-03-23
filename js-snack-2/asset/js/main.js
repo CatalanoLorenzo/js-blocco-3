@@ -11,5 +11,6 @@ const amiciDiTopolino = amici_di_topolino_e_fabio.map((nome) => {
     let name = fristword += nomemin.slice(1)
     return name
 }  )
+/* ((nome) => nome[0].toUpperCase + nome.slice(1).toLowerCase()) */
 console.log(amici_di_topolino_e_fabio)
 console.log(amiciDiTopolino);
